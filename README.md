@@ -1,5 +1,5 @@
 ## HTTP
-- What is different between POST, PUT and PATCH
+- What is different among POST, PUT and PATCH
 
 ## Spring core
 - Which the most core components of Spring
@@ -17,4 +17,3 @@
 
 ## Spring boot
 - How to switch web server from tomcat to jetty
-
