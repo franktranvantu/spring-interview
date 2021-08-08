@@ -6,3 +6,6 @@
 - Prototype vs Request scope
 
 ## Spring mvc
+
+## Spring boot
+- How to switch web server from tomcat to jetty
