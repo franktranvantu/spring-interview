@@ -1,4 +1,5 @@
-# Questions
+## HTTP
+- What is different between POST, PUT and PATCH
 
 ## Spring core
 - Which the most core components of Spring
