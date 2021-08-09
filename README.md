@@ -3,6 +3,7 @@
 - How HashMap works internally
 - How get method of HashMap works internally
 - Why the key of HashMap must be immutable
+- How many exception types are there in Java
 
 ## OOP
 - Why we need constructor inside an abstract class
