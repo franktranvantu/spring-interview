@@ -12,6 +12,7 @@
 - What happens if there is more than one bean of a type
 - What is different between @Bean and @Component
 - What is different between Singleton pattern and Singleton bean scope
+- Where should "@Transactional" be place Service Layer or DAO
 
 ## Spring mvc
 
