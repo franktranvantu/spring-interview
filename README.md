@@ -1,3 +1,9 @@
+## Java
+- Why string is immutable
+- How HashMap works internally
+- Why we need constructor inside an abstract class
+- What is functional interface
+
 ## HTTP
 - What is different among POST, PUT and PATCH
 
