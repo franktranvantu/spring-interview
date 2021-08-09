@@ -1,7 +1,13 @@
-## Java
+## Java core
 - Why string is immutable
 - How HashMap works internally
+- How get method of HashMap works internally
+- Why the key of HashMap must be immutable
+
+## OOP
 - Why we need constructor inside an abstract class
+
+## Java 8
 - What is functional interface
 
 ## HTTP
@@ -22,7 +28,11 @@
 - Can you use @service over a DAO
 - How to insert 1 million record into database
 
+## Spring jdbc
+
 ## Spring mvc
+
+## Spring security
 
 ## Spring boot
 - How to switch web server from tomcat to jetty
