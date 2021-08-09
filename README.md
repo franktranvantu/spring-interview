@@ -13,6 +13,8 @@
 - What is different between @Bean and @Component
 - What is different between Singleton pattern and Singleton bean scope
 - Where should "@Transactional" be place Service Layer or DAO
+- Can you use @service over a DAO
+- How to insert 1 million record into database
 
 ## Spring mvc
 
