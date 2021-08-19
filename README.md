@@ -37,3 +37,15 @@
 
 ## Spring boot
 - How to switch web server from tomcat to jetty
+
+## Maven
+- Maven life cycle
+  - validate
+  - compile
+  - test
+  - package
+  - integration test
+  - verify
+  - install
+  - deploy
+- 
