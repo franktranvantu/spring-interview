@@ -10,6 +10,14 @@
 
 ## Java 8
 - What is functional interface
+- ```List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+  numbers
+      .stream()
+      .filter(number -> {
+          System.out.println(number);
+          return true;
+      })
+  ```
 
 ## HTTP
 - What is different among POST, PUT and PATCH
