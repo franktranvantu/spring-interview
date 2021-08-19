@@ -58,4 +58,4 @@ List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
   - verify
   - install
   - deploy
-- 
+- Transitive dependency
