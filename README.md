@@ -39,7 +39,7 @@
 - How to switch web server from tomcat to jetty
 
 ## Maven
-- Maven life cycle
+- Build life cycle
   - validate
   - compile
   - test
