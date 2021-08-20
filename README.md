@@ -48,7 +48,22 @@ List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
 ## Spring mvc
 
 ## Spring security
-
+- How spring security works
+- How many filters are there in spring security
+  - SecurityContextPersistenceFilter
+  - HeaderWriterFilter
+  - CsrfFilter
+  - LougoutFilter
+  - UsernamePasswordAuthenticationFilter: Tries to find a username/password request parameter/POST body and if found, tries to authenticate the user with those values.
+  - DefaultLoginPageGeneratingFilter: Generates a login page for you, if you don’t explicitly disable that feature. THIS filter is why you get a default login page when enabling Spring Security.
+  - DefaultLogoutPageGeneratingFilter: Generates a logout page for you, if you don’t explicitly disable that feature.
+  - BasicAuthenticationFilter: Tries to find a Basic Auth HTTP Header on the request and if found, tries to authenticate the user with the header’s username and password.
+  - RequestCacheAwareFilter
+  - SecurityContextHolderAwareRequestFilter
+  - AnonymousAuthenticationFilter
+  - SessionManagementFilter
+  - ExceptionTranslationFilter
+  - FilterSecurityInterceptor: Does your authorization.
 ## Spring boot
 - How to switch web server from tomcat to jetty
 
