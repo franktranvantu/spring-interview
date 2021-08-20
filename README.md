@@ -1,4 +1,8 @@
 ## Java core
+- What is platform independence
+- Why is Java so popular
+  - Object oriented
+  - platform independence
 - Why string is immutable
 - How HashMap works internally
 - How get method of HashMap works internally
