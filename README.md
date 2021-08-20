@@ -8,9 +8,14 @@
 - How get method of HashMap works internally
 - Why the key of HashMap must be immutable
 - How many exception types are there in Java
+- Difference between String, String Builder, and String Buffer
+- Difference between HashSet and TreeSet
+- 
 
 ## OOP
 - Why we need constructor inside an abstract class
+- What is meant by Method Overriding
+- What is meant by Overloading
 
 ## Java 8
 - What is functional interface
