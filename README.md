@@ -50,6 +50,10 @@ List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
 
 ## Spring jdbc
 
+## Spring data jpa
+- What is different between native query and JPQL
+- What is different among JpaRepository, PagingAndSortingRepository, CrudRepository
+
 ## Spring mvc
 
 ## Spring security
@@ -69,6 +73,7 @@ List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
   - SessionManagementFilter
   - ExceptionTranslationFilter
   - FilterSecurityInterceptor: Does your authorization.
+ 
 ## Spring boot
 - How to switch web server from tomcat to jetty
 
