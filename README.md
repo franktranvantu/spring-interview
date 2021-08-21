@@ -53,6 +53,7 @@ List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
 ## Spring data jpa
 - What is different between native query and JPQL
 - What is different among JpaRepository, PagingAndSortingRepository, CrudRepository
+- @JoinTable, @JoinColumn, @Embeddable, Embedded
 
 ## Spring mvc
 
@@ -76,6 +77,17 @@ List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
  
 ## Spring boot
 - How to switch web server from tomcat to jetty
+
+## Database
+- Given a table people(first_name, last_name), first_nanme and last_name are indexed. How is performance of those queries:
+  - SELECT * FROM people WHERE first_name = 'Frank' AND last_name = 'Tran'
+  - SELECT * FROM people WHERE first_name = 'Frank'
+  - SELECT * FROM people WHERE last_name = 'Tran'
+- Assum that we have 1M records, we only want to index on records that the status is active. What should we do
+- Structure of index
+  - Search key
+  - Data reference
+- Why indexed column must be not null
 
 ## Maven
 - Build life cycle
