@@ -13,6 +13,9 @@
       - Only returns a sample object
 - List
   - Which the most core components of Spring
+  - Classes that use Singleton, Factory pattern
+    - Singleton: NoopPasswordEncoder
+    - Factory: BeanFactory, ApplicationContext
 - Comparison
   - What is different between @Bean and @Component
   - What is difference between @Component vs @Service vs @Repository
@@ -59,6 +62,9 @@
 
 ## Spring security
 - How does Basic Authentication work in Rest API
+  - Request includ username and password
+  - UsernamePasswordAuthenticationFilter.attemptAuthentication(request, response) => ProviderManager => find the specific provider (DaoAuthenticationProvider)
+  - 
 - How many filters are there in spring security
   - SecurityContextPersistenceFilter
   - HeaderWriterFilter
